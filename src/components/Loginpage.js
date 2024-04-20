@@ -1,11 +1,14 @@
 import { useState } from 'react';
 import './Login.css';
+import { useNavigate } from 'react-router';
 
 const Loginpage = () => {
 
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
+
+    const navigate = useNavigate();
 
     const login = () => {
         
@@ -16,6 +19,7 @@ const Loginpage = () => {
         setUsername('');
         setPassword('');
         setError('');
+        navigate('/page')
     }
 
     return (

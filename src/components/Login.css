@@ -1,0 +1,54 @@
+
+.maindiv{
+    display: flex;
+    justify-content: center;
+}
+
+.logindiv{
+   width: 40%;
+   height: 100vh;
+   background-color: #9FE2BF;
+}
+.sidediv{
+    width: 30%;
+    height: 100vh;
+    background-color: #36454F;
+}
+.logintext{
+    display: flex;
+    justify-content: center;
+    margin-top: 13%;
+    
+}
+.inputfield{
+    margin-left: 28%;
+
+}
+.input1{
+    width: 60%;
+    height: 5vh;
+}
+.input2{
+    width: 60%;
+    height: 5vh;
+}
+.btn{
+   display: flex;
+   justify-content: center;
+   margin-top: 10%;
+   
+}
+.loginbtn{
+    width: 30%;
+    height: 5vh;
+    background-color: #728FCE;
+}
+.sidetxt{
+    margin-top: 40%;
+    display: flex;
+    justify-content: center;
+}
+.error{
+    display: flex;
+    justify-content: center;
+}

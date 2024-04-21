@@ -44,6 +44,9 @@ const Loginpage = () => {
                 <div className='btn'>
                     <button className='loginbtn' onClick={login}>Login</button>
                 </div>
+                  <div className='forgotpass'>
+                    <span className='span1'>Forgot password? Click here to reset</span>
+                  </div>
                 
                     {
                         error && 

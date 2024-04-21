@@ -58,8 +58,13 @@
 }
 .sidetxt{
     margin-top: 40%;
-    display: flex;
-    justify-content: center;
+    margin-left: 9%;
+    /* display: flex;
+    justify-content: center; */
+}
+.sideh3{
+    font-size: xx-large;
+    font-weight: 700;
 }
 .error{
     display: flex;

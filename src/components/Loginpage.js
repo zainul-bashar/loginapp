@@ -28,7 +28,7 @@ const Loginpage = () => {
            <div className="maindiv">
              <div  className="sidediv">
                 <div className='sidetxt'>
-                   <h3> Medical Record Storage </h3>
+                   <h3 className='sideh3'> Medical Record Storage </h3>
                 </div>
                
              </div>
